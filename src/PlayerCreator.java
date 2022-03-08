@@ -63,8 +63,7 @@ public class PlayerCreator {
 
     @Override
     public String toString() {
-        return "PlayerCreator{" +
-                "name='" + name + '\'' +
+        return "Player name='" + name + '\'' +
                 ", strength=" + charClass.getStrength() +
                 ", dexterity=" + charClass.getDexterity() +
                 ", intelligence=" + charClass.getIntelligence() +
